@@ -1,10 +1,10 @@
 ---
-title: Tratamiento de alteraciones del crecimiento
+title: Detección temprana y tratamiento de la displasia del desarrollo de cadera
 subtitle:
 layout: default
-modal-id: 1
-date: 2014-07-15
-img: treehouse.png
+modal-id: 4
+date: 2014-07-18
+img: dreams.png
 thumbnail:
 alt: image-alt
 project-date: 2000

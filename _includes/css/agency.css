@@ -257,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #057;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -657,15 +657,15 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: #fff;
     background-image: url('{{ site.baseurl }}/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section#contact .section-heading {
+/* section#contact .section-heading {
     color: #fff;
-}
+} */
 
 section#contact .form-group {
     margin-bottom: 25px;
@@ -719,6 +719,20 @@ section#contact:-ms-input-placeholder {
 
 section#contact .text-danger {
     color: #e74c3c;
+}
+
+section#contact label {
+  cursor: default;
+  font-family: {{ site.data.template.font.primary }};
+  font-weight: 700;
+  color: #222;
+}
+/* Set the size of the div element that contains the map */
+#mapid {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
 }
 
 footer {
@@ -864,4 +878,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+.top-buffer{
+  margin-top:25px;
 }

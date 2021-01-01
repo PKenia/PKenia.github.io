@@ -2,42 +2,79 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Pide una cita o contáctame</h2>
+                    <h3 class="section-subheading text-muted">Me gustaría escuchar de ti.</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
+                  <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/f/xzbkkwlz" method="post">
+                    <fieldset id="fs-frm-inputs">
+                      <div class="col-md-6">
+                        <div class="control-group form-group">
+                          <label for="full-name">Nombre</label>
+                          <input type="text" class="form-control" name="name" id="full-name" placeholder="Nombre Apellido(s)" required data-validation-required-message="Por favor ingresa tu nombre.">
+                        </div>
+                        <div class="control-group form-group">
+                          <label for="email-address">Email</label>
+                          <input type="email" class="form-control" name="_replyto" id="email-address" placeholder="email@dominio.com" required data-validation-required-message="Por favor ingresa tu email.">
+                        </div>
+                        <div class="control-group form-group">
+                          <label for="telephone">Teléfono</label>
+                          <input type="telephone" class="form-control" name="telephone" id="telephone" placeholder="(555) 555-5555" required data-validation-required-message="Por favor ingresa tu teléfono.">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="control-group form-group">
+                          <label for="complaint">Mensaje</label>
+                          <textarea class="form-control" name="complaint" id="complaint" placeholder="Mensaje*." required data-validation-required-message="Por favor ingresa un mensaje."></textarea>
+                          <input type="hidden" name="_subject" id="email-subject" value="Mail de la página">
+                        </div>
+                      </div>
+                    </fieldset>
+                    <div class="clearfix"></div>
+                    <div class="col-lg-12 text-center">
+                        <!-- <div id="success"></div> -->
+                        <button type="submit" class="btn btn-xl">Enviar</button>
+                        <!-- <input type="submit" class="btn btn-xl" value="Enviar"> -->
+                    </div>
+                  </form>
+                    <!-- <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="control-group form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <input type="text" class="form-control" placeholder="Nombre *" id="name" required data-validation-required-message="Por favor ingresa tu nombre.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <input type="email" class="form-control" placeholder="Email *" id="email" required data-validation-required-message="Por favor ingresa tu email.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <input type="tel" class="form-control" placeholder="Teléfono *" id="phone" required data-validation-required-message="Por favor ingresa tu teléfono.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="control-group form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control" placeholder="Mensaje *" id="message" required data-validation-required-message="Por favor ingresa un mensaje."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
+                                <button type="submit" class="btn btn-xl">Enviar</button>
                             </div>
                         </div>
-                    </form>
+                    </form> -->
                 </div>
-            </div>
-        </div>
+              </div>
+              <div class="row top-buffer">
+              <div class="row">
+                <div class="col">
+                  <div id="mapid"></div>
+                </div>
+              </div>
+          </div>
     </section>

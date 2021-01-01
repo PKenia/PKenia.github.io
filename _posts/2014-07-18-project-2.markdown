@@ -1,10 +1,10 @@
 ---
-title: Tratamiento de alteraciones del crecimiento
+title: Tratamiento del pie equino varo aducto
 subtitle:
 layout: default
-modal-id: 1
-date: 2014-07-15
-img: treehouse.png
+modal-id: 2
+date: 2014-07-17
+img: escape.png
 thumbnail:
 alt: image-alt
 project-date: 2000
