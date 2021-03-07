@@ -334,6 +334,12 @@ section h2.section-heading {
     font-size: 40px;
 }
 
+section h4.section-subheading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
